@@ -1,0 +1,96 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url(../assets/imagenes/Fondo.jpg);
+  background-size: 100% auto;
+  background-size: cover;
+
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  
+
+}
+h2{
+  text-align: center;
+  font-size: 3.0em;
+  
+}
+
+
+
+section {
+padding: 20px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: solid black;
+  transition: transform 0.5s ease ;
+}
+img:hover{
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      align-items: center; 
+      color: blue;   
+  }
+
+
+header{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: rgb(98, 180, 247);
+  font-size: 20px;
+  
+}
+
+a:hover{
+  transform: scale(1.5);
+  color: black;
+}
+p{
+  text-align: center;
+  font-size: 16px;
+}
